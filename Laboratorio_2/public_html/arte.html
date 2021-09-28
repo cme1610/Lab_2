@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Arte</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <p><b>Introduce los términos de búsqueda:</b></p>
+        
+    <form onsubmit="return false;" method ="GET">
+        <table align ="center" border ="0">   
+            <tr>   
+                <td align ="center"> <b>OBRA</b></td>
+                <td align ="center"> <b>TIPO</b></td>
+                <td align ="center"> <b>DISPONIBILIDAD</b></td>
+                <td align ="center"> <b>ESTILO</b></td>
+
+                
+           </tr>
+           
+           <tr>   
+                <td align ="justify"> <br><br>Titulo&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id ="title"/>
+                                      <br><br>Autor&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id ="author"/>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                
+                <td align ="justify"> <br><br><input type="checkbox" id ="esc"/>&nbsp;&nbsp;Escultura
+                                      <br><br><input type="checkbox" id ="arc"/>&nbsp;&nbsp;Arquitectura
+                                      <br><br><input type="checkbox" id ="pint"/>&nbsp;&nbsp;Pintura&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                
+                <td align ="justify"> <br><br><input type="radio" id ="radio_publico" name="disp"/>&nbsp;&nbsp;Museo / Acceso Público&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                      <br><br><input type="radio" id ="radio_privado" name="disp"/>&nbsp;&nbsp;Colección Privada</td>
+                
+                <td align ="justify"> <p align ="center">
+            
+                                     <select id="id_estilos">
+                                        <option value="1">Clásico</option>
+                                        <option value="1">Abstracto</option>
+                                        <option value="1">Surrealista</option>
+                                        <option value="1">Otro</option>
+                                     </select>&nbsp;&nbsp;&nbsp;&nbsp;</td>                
+           </tr>
+           
+           
+           
+       </table>
+       
+        <br><br><br>
+        
+        <p>
+            <b>Háganos saber sus sugerencias:</b><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <textarea name="comentario" rows="4" cols ="40">Me gustaría indicar que...</textarea>
+            
+        </p> 
+        
+        <br><br><br><br><br><br>
+        
+        <p align ="center">
+            
+           <input type ="reset" value ="Buscar"/> 
+            
+        </p>
+        
+    </form>
+   
+        
+        
+            
+            
+                
+    
+    
+    </body>
+</html>
